@@ -53,7 +53,7 @@ app.get("*", (req, res) => {
         title: "page not found"
     })
 })
-
+//listening function
 
 app.listen(port, () => {
     console.log("Server is up and running on port: ", port);
