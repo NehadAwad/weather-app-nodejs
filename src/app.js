@@ -5,9 +5,9 @@ const app = express();
 
 const weatherData = require('../utils/weatherData');
 
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 3000;
 
-const publicStaticDirPath = path.join(__dirname, '../public')
+const publicStaticDirPath = path.join(__dirname, '../public');
 
 const viewsPath = path.join(__dirname, '../templates/views');
 
@@ -24,7 +24,7 @@ app.get('', (req, res) => {
     })
 })
 
-//localhost:3000/weather?address=lahore
+
 app.get('/weather', (req, res) => {
     const address = req.query.address
     if(!address) {

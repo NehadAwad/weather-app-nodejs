@@ -1,0 +1,23 @@
+[33mcommit 2d53aea89948d38fdc21837159299342b63482ae[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: NehadAwad <nehadakash622@gmail.com>
+Date:   Sun Jan 24 12:28:08 2021 +0600
+
+    identify functions
+
+[33mcommit c113cf76067faea61430e7d89ec078c26b1cb504[m
+Author: NehadAwad <nehadakash622@gmail.com>
+Date:   Sun Jan 24 11:29:56 2021 +0600
+
+    update bg image
+
+[33mcommit 0600b14d7d935953c843981c1914df8997dde458[m
+Author: NehadAwad <nehadakash622@gmail.com>
+Date:   Mon Dec 21 09:15:02 2020 +0600
+
+    Remove unnecessary console.log call
+
+[33mcommit 4952c6f8fd22e45b0a869cdfa1a542e28a1e3c3e[m
+Author: NehadAwad <nehadakash622@gmail.com>
+Date:   Mon Dec 21 09:03:24 2020 +0600
+
+    Init commit
