@@ -19,7 +19,7 @@ weatherForm.addEventListener('submit', (event) => {
     tempElement.textContent = "";
     weatherCondition.textContent = "";
     
-    const locationApi = fetchWeather + "?address=" + search.value;
+    const locationApi = "/weather?address=" + search.value;
     fetch(locationApi).then(response => {
         response.json().then(data => {
             if(data.error) {
